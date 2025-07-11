@@ -1,0 +1,9 @@
+Test URL for QR Code:
+http://192.168.1.36:8080/status/BC12345
+
+To test:
+1. Copy this URL
+2. Paste it in your browser
+3. It should show the product status page
+
+If this doesn't work, the issue is with the frontend routing or the product doesn't exist in the database. 
