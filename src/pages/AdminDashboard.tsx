@@ -9,7 +9,7 @@ import { ArrowLeft, LogOut, Plus, Search, Edit3, Package, QrCode, Download, X } 
 import { useToast } from "@/hooks/use-toast";
 import { Badge } from "@/components/ui/badge";
 
-const API_BASE_URL = 'http://localhost:3001/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
 
 const AdminDashboard = () => {
   const [productCode, setProductCode] = useState("");
